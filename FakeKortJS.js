@@ -63,6 +63,7 @@ function lagPass(){
             fr.readAsDataURL(files[0]);
         }
         else{
+            // Ingen fil hadde blitt valgt
             alert("ERROR: No file loaded");
         }
 
