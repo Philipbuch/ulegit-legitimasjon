@@ -1,0 +1,367 @@
+
+
+body {
+    background-color: rgba(228, 228, 228, 0.747);
+    overflow-x: hidden; /* Gjemmer den horisontale scrollbaren */ 
+}
+
+#Tittel {
+    color: rgb(255, 240, 30);
+    background-color: rgba(204, 14, 14, 0.863);;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px;
+    border-color: rgba(179, 81, 81, 0.863);
+    border-style: solid;
+    width: 350px;
+    height: 90px;
+    margin: auto;
+    
+    
+}
+
+#Intro{
+    background-color: rgb(245, 94, 94);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5%;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-color: rgba(204, 14, 14, 0.863);
+    border-width: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+#Bekreftelse {
+    background-color: white;
+    color: rgb(78, 78, 78);
+    font-size: 13px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 400px;
+    position: sticky; 
+    top: 0;
+    border: 2px;
+    border-style: dashed;
+    border-color: rgb(196, 196, 196);
+    border-radius: 2px;
+    
+}
+
+#Skriving {
+    background-color: rgb(245, 94, 94);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10px;
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    align-items: center;
+    border-style: solid;
+    border-color: rgba(204, 14, 14, 0.863);
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+#Fornavn {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+#Etternavn {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+
+
+#Fodselsdato {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+#Fodselsdato {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+#Utstedelsesdato {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+#Utlopsdato {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+#Personnummer {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 218px;
+}
+
+#Forerkortnummer {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 218px;
+}
+
+#Klasse {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 218px;
+}
+
+#Klasse2 {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 218px;
+}
+
+#Bilde {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 219px;
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    border-radius: 3px;
+    
+
+}
+
+
+
+#Registrer {
+    background-color: rgba(204, 14, 14, 0.863);
+    color: rgb(255, 240, 30);
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+#Pass {
+    visibility: hidden;
+    background-color: rgba(255, 199, 246, 0.493);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 900px;
+    height: 500px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(234, 143, 252);
+    border-radius: 40px;
+}
+
+
+#Overskrift {
+    position: relative; bottom: 30px; left: 210px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#Norge {
+    position: relative; bottom: 100px; left: 800px;
+    margin: 0px;
+    font-size: 25px;
+    
+
+}
+
+#En {
+    position: relative; bottom: 95px; left: 230px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+    
+    
+}
+
+#To {
+    
+    position: relative; bottom: 70px; left: 230px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+    
+    
+}
+
+#Tre {
+    
+    position: relative; bottom: 45px; left: 230px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+#FireA {
+    position: relative; bottom: 20px; left: 230px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+#FireB {
+    position: relative; bottom: -5px; left: 230px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+#FireD {
+    position: relative; bottom: 35px; left: 450px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+#FireC {
+    position: relative; bottom: 60px; left: 450px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+#Fem {
+    position: relative; bottom: 10px; left: 230px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+#SvartHvittBilde {
+    position:relative; bottom: 300px; left: 0px;
+    object-fit: cover;
+    width:200px;
+    height:250px;
+    border: 1px;
+    border-color: palevioletred;
+    border-style: solid;
+    border-radius: 5px;
+  
+}
+
+#SvartHvittBildeLiten {
+    position:relative; bottom: 250px; left: 600px;
+    object-fit: cover;
+    width:50px;
+    height: 62px;
+    border: 1px;
+    border-color: palevioletred;
+    border-style: solid;
+    border-radius: 5px;
+  
+}
+
+#Ni {
+    position: relative; bottom: -30PX; left: 0px; 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding: -30px;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+

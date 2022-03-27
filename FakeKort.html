@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uleggit legitimasjon</title>
+    <link rel="stylesheet" href="FakeKortCSS.css">
+
+
+</head>
+
+<body>
+
+    <div id="Intro">
+        <h1 id="Tittel">ULEGIT LEGITIMASJON</h1>
+        <p>Før inn informasjonen på samme vis som eksempelet. Nettsiden krever ingen sensitiv informasjon av brukeren, og all informasjon blir ikke lagret.</p>
+        
+    </div>
+
+    
+
+    <div id="Skriving">
+
+        <div id="Bekreftelse">
+            <label for="Bekrefte">Jeg bekrefter jeg vet at kortet har ingen form for legitimitet, og at i henhold til norsk lov er identitetstyveri straffbart:</label>
+            <input type="checkbox" id="Bekrefte">
+        </div>
+
+        <label for="Fornavn">Fornavn og mellomnavn:</label>
+            <input type="text" placeholder="PER FERDINAND" id="Fornavn">
+
+        <label for="Etternavn">Etternavn:</label>
+            <input type="text" placeholder="PETTERSEN" id="Etternavn">
+            
+        <label for="Fodselsdato">Fødselsdato:</label>
+            <input type="date" placeholder="16.10.2002" id="Fodselsdato" >
+
+        <label for="Utstedelsesdato">Utstedelsesdato:</label>
+            <input type="date" placeholder="01.10.2017" id="Utstedelsesdato" >
+
+        <label for="Utlopsdato">Utløpsdato:</label>
+            <input type="date" placeholder="01.10.2032" id="Utlopsdato" >
+
+        <label for="Personnummer">Personnummer:</label>
+            <input type="text" placeholder="130298 14719" id="Personnummer" >
+
+        <label for="ForerkortNummer">Førerkortnummer:</label>
+            <input type="text" placeholder="07 15 123456 1" id="Forerkortnummer" >
+
+        <label for="Klasse">Førerkortklasse:</label>
+            <input type="text" placeholder="A BE C1E" id="Klasse" >
+
+        <label for="Klasse2">Førerkortklasse2:</label>
+            <input type="text" placeholder="S T" id="Klasse2">
+
+        <label for="Bilde">Bilde i svart-hvitt:</label>
+            <input type="file" id="Bilde" accept="image/*" onchange="uploadImage(event)">
+
+        <button id="Registrer">Registrer</button>
+
+       
+    </div>
+
+    <div id="Pass">
+        <h1 id = "Overskrift">FØRERKORT FØRARKORT</h1>
+        <h1 id = "Norge">NORGE</h1>
+        <h1 id = "Norge">NOREG</h1>
+
+        <p id ="En"></p>
+        <p id ="To"></p>
+        <p id ="Tre"></p>
+        <p id ="FireA"></p>
+        <p id ="FireB"></p>
+        <p id ="FireC"><span style="font-weight: 500;">4c.</span> STATENS VEGVESEN</p>
+        <p id ="FireD"></p>
+        <p id ="Fem"></p>
+        <p id ="Ni"></p>
+
+        <img id ="SvartHvittBilde"></img>
+        <img id ="SvartHvittBildeLiten"></img>
+    </div>
+
+     
+    <script src="FakeKortJS.js">
+        
+    </script>
+
+</body>
+</html>
