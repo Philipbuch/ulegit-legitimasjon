@@ -366,10 +366,10 @@ body {
 }
 
 #MasseTekst {
-    position: relative; bottom: 0px;
+    position: relative; bottom: 20px;
     width: fit-content;
     color: palevioletred;
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
     
