@@ -366,7 +366,7 @@ body {
 }
 
 #MasseTekst {
-    position: relative; bottom: 20px;
+    position: relative; bottom: -50px;
     width: fit-content;
     color: palevioletred;
     font-size: 20px;
