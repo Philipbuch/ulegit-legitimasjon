@@ -1,10 +1,12 @@
-//Her sørget jeg for å gjøre CSSen så presis som mulig på alle elementene. Jeg har måttet style input elementene, og korrigere de når de ble en del av førerkortet.
+//Her sørget jeg for å gjøre CSSen så presis som mulig på alle elementene. Jeg har måttet style input elementene, og så korrigere de når de skulle erstatte ved a style erstatningselementene.
 //Prøvde å ha fokus på at nettsiden skulle være lett å bruke, oversiktlig og ligne på et pass
 
 body {
     background-color: rgba(228, 228, 228, 0.747);
     overflow-x: hidden; /* Gjemmer den horisontale scrollbaren */ 
 }
+
+//Her fjernet jeg den horisontale scrollbaren pga en glitch i chrome, som gjorde at nettsiden ble usentrert og man matte refreshe.
 
 #Tittel {
     color: rgb(255, 240, 30);
@@ -367,7 +369,7 @@ body {
 }
 
 #MasseTekst {
-    position: relative; bottom: 320px;
+    position: relative; bottom: 100px;
     width: auto;
     color: palevioletred;
     font-size: 20px;
