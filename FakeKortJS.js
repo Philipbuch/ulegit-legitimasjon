@@ -1,3 +1,5 @@
+//Henter ut elementene
+
 let fornavnEl = document.querySelector('#Fornavn')
 let etternavnEl = document.querySelector('#Etternavn')
 let fodselsdatoEl = document.querySelector('#Fodselsdato')
@@ -11,6 +13,7 @@ let bildeEl = document.querySelector('#Bilde')
 
 let bekrefteEl = document.querySelector('#Bekrefte')
 
+//Henter ut elementene input-elementene skal erstatte
 
 let enEl = document.querySelector('#En')
 let toEl = document.querySelector('#To')
@@ -21,16 +24,18 @@ let firedEl = document.querySelector('#FireD')
 let femEl = document.querySelector('#Fem')
 let niEl = document.querySelector('#Ni')
 let nitoEl = document.querySelector('#NiTo')
-
-
 let svarthvittbildeEl = document.querySelector('#SvartHvittBilde')
 let svarthvittbildeLitenEl = document.querySelector('#SvartHvittBildeLiten')
 
 let registrerEl = document.querySelector('#Registrer')
 let passEl = document.querySelector('#Pass')
 
+//A klikke il generere passet
+
 registrerEl.addEventListener('click', lagPass)
 
+//For a hente ut bilde, var dette koden jeg matte bruke. Det krevdes at jeg matte bruke 2 funksjoner for a laste opp
+//Source: Fikk litt hjelp av lillebroren min, sa dette er ikke tatt fra en nettside
 
 var files;
 
@@ -43,8 +48,9 @@ function uploadImage(event){
 function lagPass(){
     if(bekrefteEl.checked){
         if (files){
+            //Gjor at DIVen blir synlig
             passEl.style.visibility = 'visible' 
-            console.log(bildeEl.value)
+            //Erstatter teksten i elementene med input-elementene. i tilegg legger jeg til tall foran, og gjor at de er bold
             enEl.innerHTML = `<p><span style="font-weight:500;">1.</span> ${fornavnEl.value}</p>`
             toEl.innerHTML = `<p><span style="font-weight:500;">2.</span> ${etternavnEl.value}</p>`
             treEl.innerHTML = `<p><span style="font-weight:500;">3.</span> ${fodselsdatoEl.value}</p>`
@@ -64,7 +70,7 @@ function lagPass(){
         }
         else{
             // Ingen fil hadde blitt valgt
-            alert("ERROR: No file loaded");
+            alert("ERROR: Ikke noe bilde vedlagt");
         }
 
     }else{
@@ -74,8 +80,7 @@ function lagPass(){
 
 }
 
-bekrefteEl.style.backgroundColor = 'yellow';
-bekrefteEl.style.color = 'red';
+
 
 
 
