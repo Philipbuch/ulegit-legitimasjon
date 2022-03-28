@@ -30,7 +30,7 @@ let svarthvittbildeLitenEl = document.querySelector('#SvartHvittBildeLiten')
 let registrerEl = document.querySelector('#Registrer')
 let passEl = document.querySelector('#Pass')
 
-//A klikke il generere passet
+//A klikke vil generere passet
 
 registrerEl.addEventListener('click', lagPass)
 
