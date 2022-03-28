@@ -30,7 +30,7 @@ let svarthvittbildeLitenEl = document.querySelector('#SvartHvittBildeLiten')
 let registrerEl = document.querySelector('#Registrer')
 let passEl = document.querySelector('#Pass')
 
-//A klikke vil generere passet
+//Å klikke vil generere passet
 
 registrerEl.addEventListener('click', lagPass)
 
@@ -45,10 +45,11 @@ function uploadImage(event){
 }
 
 
+
 function lagPass(){
     if(bekrefteEl.checked){
         if (files){
-            //Gjor at DIVen blir synlig
+            //Gjor at DIVen blir synlig, og sørger for at brukeren har bekreftet 
             passEl.style.visibility = 'visible' 
             //Erstatter teksten i elementene med input-elementene. i tilegg legger jeg til tall foran, og gjor at de er bold
             enEl.innerHTML = `<p><span style="font-weight:500;">1.</span> ${fornavnEl.value}</p>`
@@ -60,7 +61,7 @@ function lagPass(){
             femEl.innerHTML = `<p><span style="font-weight:500;">5.</span> ${forerkortnummerEl.value}</p>`
             niEl.innerHTML = `<p><span style="font-weight:500;">9.</span>&nbsp&nbsp${klasseEl.value}<span style="font-style:italic;">${klasse2El.value}</span>----</p>`
 
-            // Lag en FileReader og sett svarthvittbilde sin src til filen fra inputen
+            // Lager en FileReader og setter svarthvittbilde sin src til filen fra inputen
             var fr = new FileReader();
             fr.onload = function(){
                 svarthvittbildeEl.src = fr.result;
